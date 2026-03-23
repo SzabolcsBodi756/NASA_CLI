@@ -9,7 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="rocket.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\NASACLI\NASACLI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="rocket.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

@@ -8,7 +8,39 @@
         Title="NASA küldetések" Height="450" Width="800">
     <Grid>
 
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="*"/>
+
+            <ColumnDefinition Width="5*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*"/>
+
+                <RowDefinition Height="5*"/>
+
+            </Grid.RowDefinitions>
+
+            <StackPanel Orientation="Horizontal">
+
+                <Button x:Name="btnMindenAdat"  Content="Minden adat" Height="20" Width="90" Margin="10" VerticalAlignment="Center"/>
+
+                <Button x:Name="btnStatisztika" Content="Statisztika" Height="20" Width="90" Margin="10" VerticalAlignment="Center"/>
+
+            </StackPanel>
+
+            <DataGrid x:Name="dtgAdatok" Grid.Row="1"/>
+
+        </Grid>
+
+        <ProgressBar x:Name="pgbHasznosTeherErtek" Width="10" Height="225"/>
         
-        
+        <Image Source="/rocket.png"/>
+
     </Grid>
 </Window>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NASACLITests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32bcb6f2381681bab20de584d8e541e44a87c6f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96adb23f9819734c7fddb8fa6dada329e238b497")]
 [assembly: System.Reflection.AssemblyProductAttribute("NASACLITests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NASACLITests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,6 +11,7 @@ namespace NASACLI.Tests
     [TestClass()]
     public class KuldetesTests
     {
+
         [TestMethod()]
         public void KockazatiSzintTest_1()
         {
