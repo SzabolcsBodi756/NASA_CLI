@@ -23,5 +23,30 @@ namespace NasaWPF
             InitializeComponent();
 
         }
+
+        private void btnMindenAdat_Click(object sender, RoutedEventArgs e)
+        {
+
+            Program.Beolvas("NASAmissions.txt");
+
+            dtgAdatok.ItemsSource = Program.Kuldetesek;
+
+        }
+
+        private void dtgAdatok_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+            pgbHasznosTeherErtek.Value = Program.Kuldetesek[dtgAdatok.SelectedIndex].HasznosTeher;
+
+            lbNev.Content = Program.Kuldetesek[dtgAdatok.SelectedIndex].Nev;
+
+        }
+
+        private void btnStatisztika_Click(object sender, RoutedEventArgs e)
+        {
+
+            
+
+        }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NasaWPF"
         mc:Ignorable="d"
-        Title="NASA küldetések" Height="450" Width="800">
+        Title="NASA küldetések" Height="450" Width="1100">
     <Grid>
 
         <Grid.ColumnDefinitions>
@@ -28,19 +28,31 @@
 
             <StackPanel Orientation="Horizontal">
 
-                <Button x:Name="btnMindenAdat"  Content="Minden adat" Height="20" Width="90" Margin="10" VerticalAlignment="Center"/>
+                <Button x:Name="btnMindenAdat"  Content="Minden adat" Height="20" Width="90" Margin="10" VerticalAlignment="Center" Click="btnMindenAdat_Click"/>
 
-                <Button x:Name="btnStatisztika" Content="Statisztika" Height="20" Width="90" Margin="10" VerticalAlignment="Center"/>
+                <Button x:Name="btnStatisztika" Content="Statisztika" Height="20" Width="90" Margin="10" VerticalAlignment="Center" Click="btnStatisztika_Click"/>
 
             </StackPanel>
 
-            <DataGrid x:Name="dtgAdatok" Grid.Row="1"/>
+            <DataGrid x:Name="dtgAdatok" Grid.Row="1" SelectionChanged="dtgAdatok_SelectionChanged"/>
 
         </Grid>
 
-        <ProgressBar x:Name="pgbHasznosTeherErtek" Width="10" Height="225"/>
-        
         <Image Source="/rocket.png"/>
+
+        <Label x:Name="lbNev" Height="10" Width="70" Margin=" 140, 250, 0, 0" RenderTransformOrigin="0.5,0.5" Content="wfwfwf">
+            <Label.RenderTransform>
+                <RotateTransform Angle="90"/>
+            </Label.RenderTransform>
+        </Label>
+
+        <ProgressBar x:Name="pgbHasznosTeherErtek" Maximum="77000" Background="#FF1087D6" Foreground="#FFB00693" Margin=" -30, 0, 0, -110" Width="240" Height="10" RenderTransformOrigin="0.5,0.5">
+            <ProgressBar.RenderTransform>
+                <RotateTransform Angle="-90"/>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+
+        
 
     </Grid>
 </Window>
