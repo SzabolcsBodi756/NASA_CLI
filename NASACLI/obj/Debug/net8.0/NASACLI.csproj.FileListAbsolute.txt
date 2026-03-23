@@ -1,0 +1,16 @@
+C:\Users\szabo\source\repos\NASACLI\NASACLI\bin\Debug\net8.0\NASACLI.exe
+C:\Users\szabo\source\repos\NASACLI\NASACLI\bin\Debug\net8.0\NASAmissions.txt
+C:\Users\szabo\source\repos\NASACLI\NASACLI\bin\Debug\net8.0\NASACLI.deps.json
+C:\Users\szabo\source\repos\NASACLI\NASACLI\bin\Debug\net8.0\NASACLI.runtimeconfig.json
+C:\Users\szabo\source\repos\NASACLI\NASACLI\bin\Debug\net8.0\NASACLI.dll
+C:\Users\szabo\source\repos\NASACLI\NASACLI\bin\Debug\net8.0\NASACLI.pdb
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\NASACLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\NASACLI.AssemblyInfoInputs.cache
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\NASACLI.AssemblyInfo.cs
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\NASACLI.csproj.CoreCompileInputs.cache
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\NASACLI.sourcelink.json
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\NASACLI.dll
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\refint\NASACLI.dll
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\NASACLI.pdb
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\NASACLI.genruntimeconfig.cache
+C:\Users\szabo\source\repos\NASACLI\NASACLI\obj\Debug\net8.0\ref\NASACLI.dll
