@@ -45,8 +45,29 @@ namespace NasaWPF
         private void btnStatisztika_Click(object sender, RoutedEventArgs e)
         {
 
-            
+            lbNev.Content = "Statisztika";
 
+            List<Statisztika> statisztikaLista = new List<Statisztika>();
+
+            List<Kuldetes> statisztikaListaEmber = Program.Kuldetesek.Where(x => x.Legenyseg > 0).ToList();
+
+            List<Kuldetes> statisztikaListaEmberNelkuli = Program.Kuldetesek.Where(x => x.Legenyseg == 0).ToList();
+
+            statisztikaLista.Add(new Statisztika(
+                "Emberes küldetések",
+                statisztikaListaEmber.Count(),
+                $"{statisztikaListaEmber.Average(x => x.HasznosTeher):F2} kg",
+                $"{statisztikaListaEmber.Average(x => x.Koltseg):F2} mrd USD"
+            ));
+
+            statisztikaLista.Add(new Statisztika(
+                "Nem emberes küldetések",
+                statisztikaListaEmberNelkuli.Count(),
+                $"{statisztikaListaEmberNelkuli.Average(x => x.HasznosTeher):F2} kg",
+                $"{statisztikaListaEmberNelkuli.Average(x => x.Koltseg):F2} mrd USD"
+            ));
+
+            dtgAdatok.ItemsSource = statisztikaLista;
         }
     }
 }

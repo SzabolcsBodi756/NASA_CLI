@@ -52,7 +52,5 @@
             </ProgressBar.RenderTransform>
         </ProgressBar>
 
-        
-
     </Grid>
 </Window>
