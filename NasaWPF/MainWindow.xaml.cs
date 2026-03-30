@@ -36,10 +36,14 @@ namespace NasaWPF
         private void dtgAdatok_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
-            pgbHasznosTeherErtek.Value = Program.Kuldetesek[dtgAdatok.SelectedIndex].HasznosTeher;
+            if (dtgAdatok.SelectedIndex != -1)
+            {
 
-            lbNev.Content = Program.Kuldetesek[dtgAdatok.SelectedIndex].Nev;
+                pgbHasznosTeherErtek.Value = Program.Kuldetesek[dtgAdatok.SelectedIndex].HasznosTeher;
 
+                lbNev.Content = Program.Kuldetesek[dtgAdatok.SelectedIndex].Nev;
+
+            }
         }
 
         private void btnStatisztika_Click(object sender, RoutedEventArgs e)
